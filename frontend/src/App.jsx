@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.scss'
-import Navbar from './components/navbar'
+import Navbar from './components/navbar';
+import './styles/main.scss';
+import './styles/navbar.scss'
 
 function App() {
   return (
-    <div className="container">
+    <>
       <Navbar />
-    </div>
+      <div className="container">
+        {/* Your page content here */}
+      </div>
+    </>
   );
 }
 
-export default App
+export default App;

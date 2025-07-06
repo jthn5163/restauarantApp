@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "@headlessui/react": "^2.2.4",
-    "@heroicons/react": "^2.2.0"
+    "@heroicons/react": "^2.2.0",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
   }
 }

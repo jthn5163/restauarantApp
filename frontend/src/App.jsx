@@ -1,15 +1,19 @@
-import Navbar from './components/navbar';
-import Hero from './components/hero'
+import Navbar from './components/client/navbar/navbar.jsx';
+import Hero from './components/client/hero/hero.jsx';
 import './styles/main.scss';
-import './styles/navbar.scss'
+import './components/client/navbar/navbar.scss'
 
 function App() {
   return (
     <>
-      <Navbar />
       <div className="container">
-        {/* Your page content here */}
+        {/*navbar*/}
+        <Navbar />
+        {/* hero */}
         <Hero />
+        {/*featured*/}
+        <featured />
+
       </div>
     </>
   );
